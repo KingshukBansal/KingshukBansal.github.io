@@ -38,17 +38,17 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "FUll Stack Web Developer",
     icon: web,
   },
   {
     title: "Java Developer",
     icon: mobile,
   },
-  {
-    title: "Frontend Developer",
-    icon: backend,
-  },
+  // {
+  //   title: "Frontend Developer",
+  //   icon: backend,
+  // },
   {
     title: "Video Editor",
     icon: creator,
@@ -137,19 +137,19 @@ const testimonials = [
 ];
 const education=[
   {
-    name:"Dr Br Ambedkar National Institute Of Technology,Jalandhar,Punjab",
-    degree:"Bachelor of Technology,Information Technology",
+    name:" Dr Br Ambedkar National Institute Of Technology, Jalandhar, Punjab",
+    degree:"Bachelor of Technology, ",
     date:"12/2021 - Present",
-    score:"CGPA: 7.56",
+    score:"Information Technology",
   },
   {
-    name:"Saint Fateh Singh Convent School,Bathinda,Punjab",
+    name:" Saint Fateh Singh Convent School, Bathinda, Punjab",
     degree:"Higher Secondary-CBSE Board",
     date:"06/2019 - 07/2021",
     score:"Percentage: 85%",
   },
   {
-    name:"Lord Rama Public School,Bathinda,Punjab",
+    name:" Lord Rama Public School, Bathinda, Punjab",
     degree:"Secondary-CBSE Board",
     date:"03/2007 - 06/2019",
     score:"Percentage: 88.6%",
@@ -208,7 +208,7 @@ const achievements=[
   achieve:"Got 98.41 percentile in JEE Mains 2021 and 13090 rank in JEE Advance 2021."
 },
 {
-  achieve:"Dance prodigy in award-winning club, clinching 3rd prize at the prestigious ”Shutup N Dance during Utkansh 23’ fest."
+  achieve:"Dance Achievement: 3rd Prize at 'Shutup N Dance' during Utkansh 23' Fest with Criminalz Crew."
 }
 ];
 export { services, technologies, experiences, testimonials, projects ,education, achievements};

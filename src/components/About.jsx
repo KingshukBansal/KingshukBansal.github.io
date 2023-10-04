@@ -56,7 +56,7 @@ const About = () => {
         tech industry.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10" style={{justifyContent:"space-around"}}>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

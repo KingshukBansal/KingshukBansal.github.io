@@ -1,5 +1,4 @@
 import React from "react";
-import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 import { achievements } from "../constants";
 import { styles } from "../styles";

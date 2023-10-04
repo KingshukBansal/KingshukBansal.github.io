@@ -1,7 +1,8 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
+import { toast, ToastContainer } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -30,7 +31,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+   
     emailjs
       .send(
         'service_v5t929h',
@@ -47,8 +48,9 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
+          toast.success("Thank you. I will get back to you as soon as possible.", {
+            position: toast.POSITION.TOP_RIGHT
+          });
           setForm({
             name: "",
             email: "",
@@ -58,8 +60,10 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
+          toast.error("Ahh, something went wrong. Please try again.", {
+            position: toast.POSITION.TOP_RIGHT
+          });
+          
         }
       );
   };
@@ -129,6 +133,7 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+      <ToastContainer/>
     </div>
   );
 };

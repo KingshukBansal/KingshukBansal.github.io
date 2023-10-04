@@ -49,7 +49,9 @@ const Contact = () => {
         () => {
           setLoading(false);
           toast.success("Thank you. I will get back to you as soon as possible.", {
-            position: toast.POSITION.TOP_RIGHT
+            position: toast.POSITION.BOTTOM_RIGHT,
+            className: "black-background",
+            autoClose: 5000, 
           });
           setForm({
             name: "",
@@ -61,7 +63,9 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
           toast.error("Ahh, something went wrong. Please try again.", {
-            position: toast.POSITION.TOP_RIGHT
+            position: toast.POSITION.BOTTOM_RIGHT,
+            className: "black-background",
+            autoClose: 5000, 
           });
           
         }

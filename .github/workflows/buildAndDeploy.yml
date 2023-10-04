@@ -16,7 +16,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install and Build 🔧 
         run: |
-          npm ci
+          npm run i --force
           npm run build
 
       - name: Deploy 🚀

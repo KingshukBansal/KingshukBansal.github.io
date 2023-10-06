@@ -23,7 +23,11 @@ import kubernetes from "./tech/kubernetes.png";
 import MySQL from "./tech/MySQL.png";
 import Python from './tech/Python.png';
 import github from './github.png';
-
+import githubsvg from './socials/github.svg';
+import linkedinsvg from './socials/linkedin.svg';
+import resumesvg from './socials/resume.svg';
+import twittersvg from './socials/twitter.svg';
+import instagramsvg from './socials/instagram.svg'; 
 import library from "./library.png";
 
 export {
@@ -52,5 +56,10 @@ export {
   reactjs,
   threejs,
   library,
+  instagramsvg,
+  twittersvg,
+  githubsvg,
+  linkedinsvg,
+  resumesvg
   
 };

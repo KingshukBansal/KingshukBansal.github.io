@@ -19,6 +19,11 @@ import {
   docker,
   quiz,
   library,
+  githubsvg,
+  linkedinsvg,
+  twittersvg,
+  instagramsvg,
+  resumesvg
 } from "../assets";
 
 export const navLinks = [
@@ -211,4 +216,31 @@ const achievements=[
   achieve:"Dance Achievement: 3rd Prize at 'Shutup N Dance' during Utkansh 23' Fest with Criminalz Crew."
 }
 ];
-export { services, technologies, experiences, testimonials, projects ,education, achievements};
+const socials=[
+  {
+    name:"Linked in",
+    Link:"https://www.linkedin.com/in/kingshuk-bansal-8a6b33227/",
+    image:linkedinsvg
+  },
+  {
+    name:"Instagram",
+    Link:"https://www.instagram.com/kingshuk_bansal/",
+    image:instagramsvg,
+  },
+  {
+    name:"Github",
+    Link:"https://github.com/KingshukBansal",
+    image:githubsvg,
+  },
+  {
+    name:"Twitter",
+    Link:"https://twitter.com/KingshukBansal",
+    image:twittersvg,
+  },
+  {
+    name:"Resume",
+    Link:"https://drive.google.com/drive/folders/1M2tJbm4Zu1CY7qimPjI-r4SvvyStYBK-?usp=sharing",
+    image:resumesvg
+  }
+]
+export { services, technologies, experiences, testimonials, projects ,education, achievements,socials};

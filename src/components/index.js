@@ -10,7 +10,7 @@ import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Education from './Education';
 import Achievement from './Achievement';
-
+import Findme from './Findme';
 export {
   Hero,
   Navbar,
@@ -22,6 +22,7 @@ export {
   Contact,
   Education,
   Achievement,
+  Findme,
   CanvasLoader,
   EarthCanvas, 
   BallCanvas, 

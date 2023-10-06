@@ -228,3 +228,47 @@
 .black-background .Toastify__toast-body {
   color: rgb(255, 255, 255);
 }
+/* Define keyframes for slide-in animations */
+@keyframes slide-left {
+  0% {
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes appears {
+  0% {
+
+    opacity: 0;
+  }
+  100% {
+
+    opacity: 1;
+  }
+}
+
+/* Define animation classes */
+.animate-slide-left {
+  animation: slide-left 1s ease-in-out;
+}
+
+.animate-slide-right {
+  animation: slide-right 1s ease-in-out;
+}
+.animate-appear{
+  animation: appears 1s ;
+}

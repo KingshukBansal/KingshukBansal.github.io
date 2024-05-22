@@ -19,11 +19,12 @@ import {
   docker,
   quiz,
   library,
+  Solesphere,
   githubsvg,
   linkedinsvg,
   twittersvg,
   instagramsvg,
-  resumesvg
+  resumesvg,
 } from "../assets";
 
 export const navLinks = [
@@ -97,7 +98,7 @@ const technologies = [
     name: "Python",
     icon: Python,
   },
-  
+
   {
     name: "Node JS",
     icon: nodejs,
@@ -123,48 +124,73 @@ const experiences = [
     icon: "",
     iconBg: "",
     date: "",
-    points: [
-      "",
-      "",
-    ],
+    points: ["", ""],
   },
 ];
 
 const testimonials = [
   {
-    testimonial:
-      "",
+    testimonial: "",
     name: "",
     designation: "",
     company: "",
     image: "",
   },
 ];
-const education=[
+const education = [
   {
-    name:" Dr Br Ambedkar National Institute Of Technology, Jalandhar, Punjab",
-    degree:"Bachelor of Technology, ",
-    date:"12/2021 - Present",
-    score:"Information Technology",
+    name: " Dr Br Ambedkar National Institute Of Technology, Jalandhar, Punjab",
+    degree: "Bachelor of Technology (Information Technology) ",
+    date: "12/2021 - Present",
+    score: "CGPA - 7.62",
   },
   {
-    name:" Saint Fateh Singh Convent School, Bathinda, Punjab",
-    degree:"Higher Secondary-CBSE Board",
-    date:"06/2019 - 07/2021",
-    score:"Percentage: 85%",
+    name: " Saint Fateh Singh Convent School, Bathinda, Punjab",
+    degree: "Higher Secondary-CBSE Board",
+    date: "06/2019 - 07/2021",
+    score: "Percentage: 85%",
   },
   {
-    name:" Lord Rama Public School, Bathinda, Punjab",
-    degree:"Secondary-CBSE Board",
-    date:"03/2007 - 06/2019",
-    score:"Percentage: 88.6%",
+    name: " Lord Rama Public School, Bathinda, Punjab",
+    degree: "Secondary-CBSE Board",
+    date: "03/2007 - 06/2019",
+    score: "Percentage: 88.6%",
   },
-]
+];
 const projects = [
+  {
+    name: "Solesphere",
+    description:
+      "SoleSphere is a full-stack e-commerce platform integrates various functionalities to cater to both customers and administrators, ensuring efficient management and an enjoyable user experience.",
+    tags: [
+      {
+        name: "React js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Tailwind Css",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: Solesphere,
+    source_code_link: "https://github.com/KingshukBansal/SoleSphere.git",
+  },
   {
     name: "Library Management System",
     description:
-    "I created a robust library management system for HackMol3.0, including MySQL database management, frontend collaboration, and user-specific publication management for diverse user roles.",
+      "I created a robust library management system for HackMol3.0, including MySQL database management, frontend collaboration, and user-specific publication management for diverse user roles.",
     tags: [
       {
         name: "HTML",
@@ -203,44 +229,51 @@ const projects = [
     image: quiz,
     source_code_link: "https://github.com/KingshukBansal/Quiz_application.git",
   },
-  
 ];
-const achievements=[
-{
-  achieve:"Solved 250+ problems on GeeksforGeeks with an Overall Coding Score greater than 600+."
-},
-{
-  achieve:"Got 98.41 percentile in JEE Mains 2021 and 13090 rank in JEE Advance 2021."
-},
-{
-  achieve:"Dance Achievement: 3rd Prize at 'Shutup N Dance' during Utkansh 23' Fest with Criminalz Crew."
-}
+const achievements = [
+  {
+    achieve:
+      "Solved 250+ problems on GeeksforGeeks with an Overall Coding Score greater than 600+.",
+  },
+  {
+    achieve:
+      "Got 98.41 percentile in JEE Mains 2021 and 13090 rank in JEE Advance 2021.",
+  },
 ];
-const socials=[
+const socials = [
   {
-    name:"Linked in",
-    Link:"https://www.linkedin.com/in/kingshuk-bansal-8a6b33227/",
-    image:linkedinsvg
+    name: "Linked in",
+    Link: "https://www.linkedin.com/in/kingshuk-bansal-8a6b33227/",
+    image: linkedinsvg,
   },
   {
-    name:"Instagram",
-    Link:"https://www.instagram.com/kingshuk_bansal/",
-    image:instagramsvg,
+    name: "Instagram",
+    Link: "https://www.instagram.com/kingshuk_bansal/",
+    image: instagramsvg,
   },
   {
-    name:"Github",
-    Link:"https://github.com/KingshukBansal",
-    image:githubsvg,
+    name: "Github",
+    Link: "https://github.com/KingshukBansal",
+    image: githubsvg,
   },
   {
-    name:"Twitter",
-    Link:"https://twitter.com/KingshukBansal",
-    image:twittersvg,
+    name: "Twitter",
+    Link: "https://twitter.com/KingshukBansal",
+    image: twittersvg,
   },
   {
-    name:"Resume",
-    Link:"https://drive.google.com/drive/folders/1M2tJbm4Zu1CY7qimPjI-r4SvvyStYBK-?usp=sharing",
-    image:resumesvg
-  }
-]
-export { services, technologies, experiences, testimonials, projects ,education, achievements,socials};
+    name: "Resume",
+    Link: "https://drive.google.com/drive/folders/1M2tJbm4Zu1CY7qimPjI-r4SvvyStYBK-?usp=sharing",
+    image: resumesvg,
+  },
+];
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  education,
+  achievements,
+  socials,
+};

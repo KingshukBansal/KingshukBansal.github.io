@@ -29,6 +29,7 @@ import resumesvg from './socials/resume.svg';
 import twittersvg from './socials/twitter.svg';
 import instagramsvg from './socials/instagram.svg'; 
 import library from "./library.png";
+import Solesphere from "./Solesphere.png";
 
 export {
   logo,
@@ -56,6 +57,7 @@ export {
   reactjs,
   threejs,
   library,
+  Solesphere,
   instagramsvg,
   twittersvg,
   githubsvg,
